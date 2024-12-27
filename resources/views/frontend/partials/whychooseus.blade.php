@@ -1,5 +1,5 @@
 	<!-- ========================= feature style-1 start ========================= -->
-  <section id="feature" class="feature-section feature-style-1 mb-80">
+  <section id="feature" class="feature-section feature-style-1 pt-100 pb-100">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-xxl-5 col-xl-5 col-lg-7 col-md-8">

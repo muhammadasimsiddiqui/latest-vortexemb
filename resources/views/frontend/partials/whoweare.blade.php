@@ -1,5 +1,5 @@
  <!-- ========================= about style-2 start ========================= -->
- <section id="about" class="about-section about-style-2 mb-80">
+ <section id="about" class="about-section about-style-2 pt-100 pb-100">
       <div class="container">
         <div class="row">
           <div class="col-xl-5 col-lg-6">

@@ -1,4 +1,4 @@
- <section class="mb-100">
+ <section class="pt-100 pb-100">
       <div class="container">
         <div class="row justify-content-around">
           <div class="col-md-6 order-1 order-md-2">
