@@ -25,8 +25,8 @@
               at just $3 per 1,000 stitches. We deliver top-notch results
               quickly, helping you meet deadlines without compromising on
               quality.
-              <!-- We can produce an embroidery file for your machine. You need to just upload your image and select the options that suit your needs. -->
             </p>
+            <!-- We can produce an embroidery file for your machine. You need to just upload your image and select the options that suit your needs.  -->
             </div>
           </div>
         </div>

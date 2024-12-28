@@ -14,6 +14,41 @@ html {
   scroll-behavior: smooth;
 }
 
+:root{
+  --them-color-one: #2F80ED;
+  --them-color: #309df0;
+  --theme-color-two: rgba(47, 128, 237, 0.8);
+  --theme-color-:#000000;
+  --theme-color-:#222B34;
+  --theme-color-: rgb(85 108 214 / 5%);
+  --theme-color-:rgb(85 108 214 / 10%);
+  --theme-color: rgba(0, 0, 0, 0.1);
+  --theme-color: rgba(47, 128, 237, 0.3);
+  --theme-color: rgba(218, 211, 211, 0.3);
+  --theme-color: rgba(196, 196, 196, 0);
+  --theme-color:  rgba(37, 44, 97, 0.15);
+  --theme-color-: rgba(47, 128, 237, 0.16);
+  --theme-color:rgba(47, 128, 237, 0.16);
+  --theme-color:rgba(47, 128, 237, 0.16);
+  --theme-color:rgba(47, 128, 237, 0.4);
+  --theme-color:rgba(255, 255, 255, 0.05);
+  --theme-color: #727cb6;
+  --theme-color: #4a59ab;
+  --theme-color-three: #323450;
+  --theme-color-four: #212121;
+  --theme-color-: #585978;
+  --theme-color-: linear-gradient(140deg,#42c3ca 0%,#42c3ca 50%,#42c3cac7 75%) ;
+  --theme-color-: rgb(54 81 207 / 15%) ;
+  --theme-color-: linear-gradient(180deg, rgba(196, 196, 196, 0) 0%, #558FFF 100%) ;
+
+  --theme-color-five: #F5F4F4;
+  --theme-color-five: #ffffff;
+  --theme-color-six: #E9E9E9;
+  --theme-color: #e5e5e5;
+  --theme-color: #1abc9c;
+  --theme-color: #cf4d78;
+}
+
 body {
   font-family: "Heebo", sans-serif;
   color: #585978;
@@ -2653,12 +2688,7 @@ p {
 .solution_card .solu_description button {
   border: 0;
   border-radius: 15px;
-  background: linear-gradient(
-    140deg,
-    #42c3ca 0%,
-    #42c3ca 50%,
-    #42c3cac7 75%
-  ) !important;
+  background: linear-gradient(140deg,#42c3ca 0%,#42c3ca 50%,#42c3cac7 75%) !important;
   color: #fff;
   font-weight: 500;
   font-size: 1rem;
@@ -4777,3 +4807,26 @@ input:focus, textarea:focus, button:focus {
 .pr-100 {
   padding-right: 100px;
 }
+/*  */
+/*  */
+/* serviceCard */
+.serviceCard{
+  background-color: #f3f3f3;
+  border-radius: 10px;
+}
+.serviceCard .moreIcon svg {
+  border: 1.5px solid #ececec; /* Adds a border around the SVG */
+  padding: 10px; 
+  border-radius: 50%; /* Makes the SVG appear circular */
+  display: inline-block; /* Ensures the element respects padding and border settings */
+  box-sizing: border-box; /* Includes padding and border in the element's dimensions */
+  height: 42px; /* Fixes the height */
+  width: 42px; /* Fixes the width */
+  fill: #323450;
+}
+.serviceCard:hover {
+  cursor: pointer;
+}
+
+/*  */
+/*  */

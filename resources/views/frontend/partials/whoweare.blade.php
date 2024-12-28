@@ -5,7 +5,7 @@
           <div class="col-xl-5 col-lg-6">
             <div class="about-content-wrapper">
               <div class="section-title mb-40">
-              <p class="font-weight-medium caption-font-size mb-6">Who We Are</p>
+              <p class="font-weight-medium caption-font-size mb-6">WHO WE ARE</p>
                 <h3 class="mb-25">We are <span>Creatives</span></h3>
                 <p>The VortexEmb is a dynamic and innovative company that specializesin a wide range of creative services. With expertise in Embroidery Digitizing, 3D Puff Hat Logos, Vector Art Logos, and Graphic design, we bring clients' visions to life with meticulous attention to detail. 
                 <br/>    
@@ -16,26 +16,9 @@
           </div>
           <div class="col-xl-7 col-lg-6">
             <div class="about-image-wrapper">
-              <div class="row">
-                <div class="col-md-5">
-                  <div class="left-wrapper">
-                    <div class="content-item">
-                      <h4>20 Years Experience</h4>
-                    </div>
-                    <div class="image-item">
-                      <img src="frontend/assets/img/about/about-2/about-1.jpg" alt="">
-                    </div>
-                    <div class="image-item">
-                      <img src="frontend/assets/img/about/about-2/about-2.jpg" alt="">
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-7">
-                  <div class="right-wrapper">
-                    <img src="frontend/assets/img/about/about-2/about-3.jpg" alt="">
-                  </div>
-                </div>
-              </div>
+              <div class="right-wrapper">
+                <img src="frontend/assets/img/illustration/who-we-are.svg" alt="">
+              </div>         
             </div>
           </div>
         </div>
