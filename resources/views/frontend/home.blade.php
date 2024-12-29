@@ -40,7 +40,10 @@
                         <h3 class="mb-15">We create<br/><span>beautiful designs</span></h3>
                     </div>
                     <div class="col-md-6">
-                        <p>Upgrade your embroidery projects with our premium digitizing services. Say goodbye to inefficient designs and welcome creativity!</p>
+                      <p class="mb-15">
+                        Our Custom Patches services offer clients the ability to enhance their brand with embroidered, PVC, leather, chenille, sublimation, and woven patches. Our Custom Patches services offer clients the ability to enhance their brand
+                      </p>
+                        <a href="{{ url('/portfolio') }}" class="button button-sm radius-3">View More</a>
                     </div>
                 </div>
             </div>
