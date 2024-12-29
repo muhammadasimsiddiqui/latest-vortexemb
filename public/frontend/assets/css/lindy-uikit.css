@@ -4956,7 +4956,7 @@ button:focus {
     border-radius: 10px;
 }
 
-.labels {
+.comparison .labels {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -4965,7 +4965,7 @@ button:focus {
     z-index: 1;
 }
 
-.label {
+.comparison .label {
     position: absolute;
     font-size: 13px;
     background-color: #3f3f3f;
@@ -4977,19 +4977,19 @@ button:focus {
     letter-spacing: 0.8px;
 }
 
-.label.before {
+.comparison .label.before {
     left: 10px;
     bottom: 0;
     transform: translateY(-50%);
 }
 
-.label.after {
+.comparison .label.after {
     right: 10px;
     /* top: 50%; */
     transform: translateY(-50%);
 }
 
-figure {
+.comparison figure {
     position: absolute;
     background-size: cover;
     font-size: 0;
@@ -4998,7 +4998,7 @@ figure {
     margin: 0;
 }
 
-.divisor {
+.comparison .divisor {
     background-size: cover;
     position: absolute;
     width: 50%;
@@ -5007,7 +5007,7 @@ figure {
     height: 100%;
 }
 
-.handle {
+.comparison .handle {
     position: absolute;
     height: 50px;
     width: 50px;
@@ -5038,7 +5038,7 @@ figure {
     }
 }
 
-input[type="range"] {
+.comparison input[type="range"] {
     -webkit-appearance: none;
     -moz-appearance: none;
     position: absolute;
@@ -5055,7 +5055,8 @@ input[type="range"] {
         outline: none;
     }
 }
-input[type="range"]::-webkit-slider-thumb {
+
+.comparison input[type="range"]::-webkit-slider-thumb {
     -webkit-appearance: none;
     border: none;
     height: 50px;
@@ -5065,7 +5066,8 @@ input[type="range"]::-webkit-slider-thumb {
     border: 4px solid white;
     box-shadow: 0 0 8px 1px rgba(0, 0, 0, 0.3);
 }
-input[type="range"]::-moz-range-track {
+
+.comparison input[type="range"]::-moz-range-track {
     -moz-appearance: none;
     height: 15px;
     width: 100%;
@@ -5074,4 +5076,47 @@ input[type="range"]::-moz-range-track {
     outline: none;
 }
 
+/* Remove focus styles for the accordion button */
+.accordion-button:focus {
+    outline: none;
+    box-shadow: none;
+    background-color: transparent;  /* Remove focus background */
+    border-color: transparent;      /* Remove border color */
+}
+.accordion-item{
+    background: transparent !important;  /* Remove focus background */
+
+}
+
 /*  */
+/* Remove focus styles for the accordion button */
+.accordion-button:focus {
+    outline: none;
+    box-shadow: none;
+    border-color: transparent;
+    border: 0;
+}
+.accordion-button,
+.accordion-body {
+    outline: none;
+    box-shadow: none;
+    background-color: transparent;  /* Remove focus background */
+    border: 0; 
+    border-bottom: 1px solid #000 !important;
+    padding-left: 0px;
+    padding-right: 0px;
+
+}
+.accordion-item{
+    border: 0;  
+    border-radius: 0 !important;
+}
+.accordion-button:not(.collapsed) {
+    background-color: transparent;
+    box-shadow: none;
+}
+.accordion-item:first-of-type>.accordion-header .accordion-button.collapsed,
+.accordion-item:last-of-type>.accordion-header .accordion-button.collapsed {
+    border-bottom-right-radius:0;
+    border-bottom-left-radius: 0;
+}

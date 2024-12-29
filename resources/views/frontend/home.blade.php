@@ -27,7 +27,7 @@
     @include('frontend.partials.testinomial')
     <!-- /Testimonials Section -->
 
-    <!-- ========================= pricing style-1 end ========================= -->
+    <!-- ========================= portfolio start ========================= -->
     <section class="pb-100 pt-100" >
       <div class="container">
         <div class="row"> 
@@ -112,8 +112,12 @@
         </div>
              
     </section>
-    <!-- ========================= pricing style-1 end ========================= -->
+    <!-- ========================= portfolio end ========================= -->
  
+ <!-- Testimonials Section -->
+ @include('frontend.partials.faq')
+ <!-- /Testimonials Section -->
+
     <!-- ========================= pricing style-1 end ========================= -->
 
                 <section class="pricing">
