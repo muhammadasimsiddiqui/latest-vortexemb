@@ -34,22 +34,44 @@
 
     /* =========================
     =========================
-    // header-2  toggler-icon
-    let navbarToggler2 = document.querySelector(".header-2 .navbar-toggler");
-    var navbarCollapse2 = document.querySelector(".header-2 .navbar-collapse");
+    // // header-2  toggler-icon
+    // let navbarToggler2 = document.querySelector(".header-2 .navbar-toggler");
+    // var navbarCollapse2 = document.querySelector(".header-2 .navbar-collapse");
 
-    document.querySelectorAll(".header-2 .page-scroll").forEach(e =>
-        e.addEventListener("click", () => {
-            navbarToggler2.classList.remove("active");
-            navbarCollapse2.classList.remove('show')
-        })
-    );
-    navbarToggler2.addEventListener('click', function() {
-        navbarToggler2.classList.toggle("active");
-    })
+    // document.querySelectorAll(".header-2 .page-scroll").forEach(e =>
+    //     e.addEventListener("click", () => {
+    //         navbarToggler2.classList.remove("active");
+    //         navbarCollapse2.classList.remove('show')
+    //     })
+    // );
+    // navbarToggler2.addEventListener('click', function() {
+    //     navbarToggler2.classList.toggle("active");
+    // })
     =========================
     ========================= */
-
+    document.querySelectorAll(".comparison").forEach((comparison) => {
+        const divisor = comparison.querySelector(".divisor");
+        const handle = comparison.querySelector(".handle");
+        const slider = comparison.querySelector(".slider");
+      
+        // Load images dynamically from the attributes
+        const beforeImage = handle.getAttribute("before-image");
+        const afterImage = handle.getAttribute("after-image");
+      
+        comparison.querySelector("figure").style.backgroundImage = `url(${beforeImage})`;
+        divisor.style.backgroundImage = `url(${afterImage})`;
+      
+        // Initialize position
+        function moveDivisor() {
+          divisor.style.width = slider.value + "%";
+          handle.style.left = slider.value + "%";
+        }
+      
+        moveDivisor(); // Set initial position
+      
+        slider.addEventListener("input", moveDivisor);
+      });
+      
 
     /* =========================
     =========================

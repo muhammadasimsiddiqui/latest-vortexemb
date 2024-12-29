@@ -16,7 +16,7 @@
                 </div>
             </div>
         </div>
-        <div class="row align-items-stretch">
+        <div class="row  gy-4 align-items-stretch">
               <div class="col-md-4 d-flex">
                 <div class="serviceCard pr-25 pl-25 pt-25 pb-25 d-flex flex-column">
                   <div class="mb-25">
