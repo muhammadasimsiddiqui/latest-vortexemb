@@ -52,6 +52,10 @@
           <div class="col-md-4">
             <div>
               <div class="comparison">
+                <div class="labels">
+                  <span class="label before">Before</span>
+                  <span class="label after">After</span>
+                </div>
                 <figure>
                   <div
                     class="handle"
@@ -62,11 +66,16 @@
                 </figure>
                 <input type="range" min="0" max="100" value="50" class="slider">
               </div>
+              
             </div>
           </div>
           <div class="col-md-4">
             <div>
               <div class="comparison">
+                <div class="labels">
+                  <span class="label before">Before</span>
+                  <span class="label after">After</span>
+                </div>
                 <figure>
                   <div
                     class="handle"
@@ -77,11 +86,16 @@
                 </figure>
                 <input type="range" min="0" max="100" value="50" class="slider">
               </div>
+              
             </div>
           </div>
           <div class="col-md-4">
             <div>
               <div class="comparison">
+                <div class="labels">
+                  <span class="label before">Before</span>
+                  <span class="label after">After</span>
+                </div>
                 <figure>
                   <div
                     class="handle"
@@ -92,6 +106,7 @@
                 </figure>
                 <input type="range" min="0" max="100" value="50" class="slider">
               </div>
+              
             </div>
           </div>
         </div>
