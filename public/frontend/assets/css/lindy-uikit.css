@@ -5102,6 +5102,7 @@ button:focus {
     background: transparent;
     border: 0; 
     border-bottom: 2px solid #f3f3f3 !important;
+    font-weight: 500;
 }
 .accordion-button::after {
     background-image: none !important;
@@ -5119,6 +5120,7 @@ button:focus {
     border-radius: 0 !important;
 }
 .accordion-button:not(.collapsed) {
+    color: #323450;
     background-color: transparent;
     box-shadow: none;
 }
