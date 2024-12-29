@@ -1,8 +1,7 @@
 <!-- ========================= Services ========================= -->
     <section class="pb-100 pt-100" >
       <div class="container">
-        <div class="row"> 
-            <div class="section-title mb-60">
+        <div class="section-title mb-60">
                 <div class="row justify-content-between">
                     <div class="col-md-12">
                       <p class="font-weight-medium caption-font-size mb-6">OUR VALUES</p>
@@ -14,11 +13,10 @@
                         <p>Upgrade your embroidery projects with our premium digitizing services. Say goodbye to inefficient designs and welcome creativity!</p>
                     </div>
                 </div>
-            </div>
         </div>
         <div class="row  gy-4 align-items-stretch">
               <div class="col-md-4 d-flex">
-                <div class="serviceCard pr-25 pl-25 pt-25 pb-25 d-flex flex-column">
+                <div class="serviceCard background-color pr-25 pl-25 pt-25 pb-25 d-flex flex-column">
                   <div class="mb-25">
                    <img src="frontend/assets/img/icons/embriodery.svg"/>
                   </div>
@@ -34,7 +32,7 @@
                 </div>
               </div>
               <div class="col-md-4 d-flex">
-                <div class="serviceCard pr-25 pl-25 pt-25 pb-25">
+                <div class="serviceCard background-color pr-25 pl-25 pt-25 pb-25">
                   <div class="mb-25">
                     <img src="frontend/assets/img/icons/vector-conversation.svg"/> 
                   </div>
@@ -50,7 +48,7 @@
                 </div>
               </div>
               <div class="col-md-4 d-flex">
-                <div class="serviceCard pr-25 pl-25 pt-25 pb-25 d-flex flex-column">
+                <div class="serviceCard background-color pr-25 pl-25 pt-25 pb-25 d-flex flex-column">
                   <div class="mb-25">
                     <img src="frontend/assets/img/icons/custom-patches.svg"/> 
                   </div>

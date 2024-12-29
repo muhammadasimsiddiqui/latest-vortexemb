@@ -4928,8 +4928,20 @@ button:focus {
 /*  */
 /*  */
 /* serviceCard */
-.serviceCard {
+
+.background-color{
     background-color: #f3f3f3;
+}
+
+.yellow{
+    color:#f8be05;
+}
+
+.text-dark{
+    color: #323450;
+}
+
+.serviceCard {
     border-radius: 10px;
 }
 .serviceCard .moreIcon svg {

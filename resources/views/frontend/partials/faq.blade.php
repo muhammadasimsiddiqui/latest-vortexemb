@@ -1,10 +1,13 @@
-<section>
+<section class="pb-100 pt-100">
     <div class="container">
         <div class="row">
             <div class="col-md-6">
-                <div class="section-title mb-60">
+                <div class="section-title ">
                     <p class="font-weight-medium caption-font-size mb-6">FAQ's</p>
                     <h3 class="mb-15">Frequently asked<br/><span>questions!</span></h3>
+                </div>
+                <div>
+                    <img src="frontend/assets/img/illustration/faqs.svg" class="img-fluid" alt="">
                 </div>
             </div>
             <div class="col-md-6">
@@ -47,7 +50,7 @@
                         <div id="faq-collapse-3" class="accordion-collapse collapse show" aria-labelledby="faq-heading-3">
                             <div class="accordion-body">
                                 Register yourself with us or you can send your artwork/image via email <a href="mailto:support@digitemb.com">support@digitemb.com</a>.
-                                <a href="https://www.digitemb.net/" class="btn btn-primary mt-2">Register Now</a>
+                               
                             </div>
                         </div>
                     </div>

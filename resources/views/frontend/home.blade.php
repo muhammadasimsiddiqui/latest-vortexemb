@@ -23,10 +23,6 @@
     @include('frontend.partials.whychooseus')
     <!-- /Why Choose Us Section -->
 
-    <!-- Testimonials Section -->
-    @include('frontend.partials.testinomial')
-    <!-- /Testimonials Section -->
-
     <!-- ========================= portfolio start ========================= -->
     <section class="pb-100 pt-100" >
       <div class="container">
@@ -113,10 +109,16 @@
              
     </section>
     <!-- ========================= portfolio end ========================= -->
- 
- <!-- Testimonials Section -->
- @include('frontend.partials.faq')
- <!-- /Testimonials Section -->
+
+    <!-- Testimonials Section -->
+    @include('frontend.partials.faq')
+    <!-- /Testimonials Section -->
+
+    <!-- Testimonials Section -->
+    @include('frontend.partials.testinomial')
+    <!-- /Testimonials Section -->
+
+
 
     <!-- ========================= pricing style-1 end ========================= -->
 
