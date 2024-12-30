@@ -306,7 +306,11 @@
     <!-- /Pricing Section -->
 
     <!-- Feature Section -->
-    @include('frontend.partials.feature')
+    {{-- @include('frontend.partials.feature') --}}
+    <!-- /Feature Section -->
+
+    <!-- Feature Section -->
+    @include('frontend.partials.more-customers')
     <!-- /Feature Section -->
 
 @endsection
