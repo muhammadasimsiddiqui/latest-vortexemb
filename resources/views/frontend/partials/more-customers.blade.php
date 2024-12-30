@@ -1,10 +1,10 @@
 <section class="container-fluid position-relative mb-100 mt-100">
-    <div class="d-flex rounded-3" style="background: #bb1125; min-height: 280px; margin-right:3%;  margin-left:3%;">
+    <div class="d-flex rounded-3 contactBanner">
          <div class="container d-flex align-items-center">
              <div class="row w-100 pt-50 pb-50">
                  <!-- Text Content -->
                  <div class="col-lg-7 col-sm-12 pl-20">
-                        <p class="font-weight-medium caption-font-size mb-3 text-white">MORE QUESTIONS</p>
+                        <p class="font-weight-medium caption-font-size mb-3 text-white">CONTACT US</p>
                         <h4 class="font-weight-medium mb-4 text-white">
                          Want to speak with an Our Sales Representative? 
                             <span class="text-highlight">Reach us here!</span>
@@ -15,8 +15,8 @@
                         </div>
                  </div>
                  <!-- Image Content -->
-                 <div class="col-lg-5 col-sm-12 justify-content-end" style="position: relative;">
-                    <div style="position: absolute; bottom:-48%; "> 
+                 <div class="col-lg-5 col-sm-12 justify-content-end position-relative">
+                    <div class="contactBannerImage position-absolute" style=""> 
                        <div>
                         <img src="frontend/assets/img/illustration/24-7_service.svg" class="img-fluid" alt="">
                        </div>

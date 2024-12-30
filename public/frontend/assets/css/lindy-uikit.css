@@ -4941,9 +4941,6 @@ button:focus {
     color: #323450;
 }
 
-.serviceCard {
-    border-radius: 10px;
-}
 .serviceCard .moreIcon svg {
     border: 1.5px solid #ececec; /* Adds a border around the SVG */
     padding: 10px;
@@ -5141,3 +5138,19 @@ button:focus {
     border-bottom-right-radius:0;
     border-bottom-left-radius: 0;
 }
+
+
+/*  */
+.contactBanner{
+    background: #bb1125; min-height: 280px; margin-right:3%;  margin-left:3%;
+}
+.contactBannerImage{
+    bottom:-48%;
+}
+@media (max-width: 768px){
+    .contactBannerImage{
+        position:relative !important;
+        bottom:-12%;
+    }
+}
+/*  */
