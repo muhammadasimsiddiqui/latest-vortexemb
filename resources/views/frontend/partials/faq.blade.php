@@ -3,8 +3,8 @@
         <div class="row">
             <div class="col-md-6">
                 <div class="section-title ">
-                    <p class="font-weight-medium caption-font-size mb-6">FAQ's</p>
-                    <h3 class="mb-15">Frequently asked<br/><span>questions!</span></h3>
+                    <p class="font-weight-semi-bold color-red caption-font-size mb-6">FAQ's</p>
+                    <h3 class="mb-15 font-weight-medium">Frequently asked<br/><span class="font-weight-bold color-red fst-italic">questions!</span></h3>
                 </div>
                 <div>
                     <img src="frontend/assets/img/illustration/faqs.svg" class="img-fluid" alt="">
@@ -16,7 +16,7 @@
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="faq-heading-1">
                             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse-1" aria-expanded="true" aria-controls="faq-collapse-1">
-                                How Much Your Services Cost?
+                                <span class="font-weight-bold">How Much Your Services Cost?</span>
                             </button>
                         </h2>
                         <div id="faq-collapse-1" class="accordion-collapse collapse show" aria-labelledby="faq-heading-1">
@@ -30,7 +30,7 @@
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="faq-heading-2">
                             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse-2" aria-expanded="true" aria-controls="faq-collapse-2">
-                                What Is Your Turnaround Time?
+                                <span class="font-weight-bold">What Is Your Turnaround Time?</span>
                             </button>
                         </h2>
                         <div id="faq-collapse-2" class="accordion-collapse collapse show" aria-labelledby="faq-heading-2">
@@ -44,7 +44,7 @@
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="faq-heading-3">
                             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse-3" aria-expanded="true" aria-controls="faq-collapse-3">
-                                How Can I Place My Order?
+                                <span class="font-weight-bold">How Can I Place My Order?</span>
                             </button>
                         </h2>
                         <div id="faq-collapse-3" class="accordion-collapse collapse show" aria-labelledby="faq-heading-3">
@@ -59,7 +59,7 @@
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="faq-heading-4">
                             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse-4" aria-expanded="true" aria-controls="faq-collapse-4">
-                                Do You Offer Discount Prices?
+                                <span class="font-weight-bold">Do You Offer Discount Prices?</span>
                             </button>
                         </h2>
                         <div id="faq-collapse-4" class="accordion-collapse collapse show" aria-labelledby="faq-heading-4">
@@ -73,15 +73,15 @@
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="faq-heading-5">
                             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse-5" aria-expanded="true" aria-controls="faq-collapse-5">
-                                Do You Offer Free Samples?
+                                <span class="font-weight-bold">Do You Offer Free Samples?</span>
                             </button>
                         </h2>
                         <div id="faq-collapse-5" class="accordion-collapse collapse show" aria-labelledby="faq-heading-5">
                             <div class="accordion-body">
-                                Yes, you can find the free embroidery designs in the <a href="https://www.digitemb.com/shop/p-category/free-embroidery-designs/" target="_blank" rel="noopener"><b>freebies</b></a> section.
+                                No, we do not offer free samples. However, we ensure premium quality in all our designs.
                             </div>
                         </div>
-                    </div>
+                    </div>                    
                 </div>
             </div>
         </div>

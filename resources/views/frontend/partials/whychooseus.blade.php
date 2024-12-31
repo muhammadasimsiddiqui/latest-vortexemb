@@ -1,15 +1,19 @@
 	<!-- ========================= feature style-1 start ========================= -->
   <section id="feature" class="feature-section feature-style-1 pt-100 pb-100">
       <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-xxl-5 col-xl-5 col-lg-7 col-md-8">
-            <div class="section-title text-center mb-30">
-            <p class="font-weight-medium caption-font-size mb-6">Why Choose Us</p>
-              <h3 class="mb-15">Specializing In</h3>
-              <p>Stop wasting time and money designing and managing a website that doesn’t get results. Happiness guaranteed!</p>
-            </div>
+        <div class="section-title mb-60">
+          <div class="row justify-content-between">
+              <div class="col-md-12">
+                  <p class="font-weight-semi-bold color-red caption-font-size mb-6">WHY CHOOSE US</p>
+              </div>
+              <div class="col-md-5">
+                  <h3 class="mb-15 font-weight-medium">Crafting excellence with <span class="font-weight-bold color-red fst-italic">VortexEmb!</span></h3>
+              </div>
+              <div class="col-md-6">
+                  <p>Transform your embroidery ideas into reality with our top-tier digitizing and vector conversion services. Experience unmatched precision and creativity!</p>
+              </div>
           </div>
-        </div>
+        </div>      
         <div class="row">
           <div class="col-lg-4 col-md-6">
             <div class="single-feature">

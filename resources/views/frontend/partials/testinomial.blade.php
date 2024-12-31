@@ -3,10 +3,10 @@
         <div class="section-title mb-60">
             <div class="row justify-content-between">
                 <div class="col-md-12">
-                  <p class="font-weight-medium caption-font-size mb-6">TESTINOMIALS</p>
+                  <p class="font-weight-semi-bold color-red caption-font-size mb-6">TESTINOMIALS</p>
                 </div>
                 <div class="col-md-5">
-                    <h3 class="mb-15">Our clients just<br/><span>love us!</span></h3>
+                    <h3 class="mb-15 font-weight-medium">Our clients just<br/><span class="font-weight-bold color-red fst-italic">love us!</span></h3>
                 </div>
                 <div class="col-md-6">
                     <p>Our Custom Patches services offer clients the ability to enhance their brand with embroidered, PVC, leather, chenille, sublimation, and woven patches.</p>

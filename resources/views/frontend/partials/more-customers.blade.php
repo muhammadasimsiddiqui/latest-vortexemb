@@ -1,10 +1,10 @@
-<section class="container-fluid position-relative mb-100 mt-100">
+<section class="container-fluid position-relative mb-100 mt-225">
     <div class="d-flex rounded-3 contactBanner">
          <div class="container d-flex align-items-center">
              <div class="row w-100 pt-50 pb-50">
                  <!-- Text Content -->
                  <div class="col-lg-7 col-sm-12 pl-20">
-                        <p class="font-weight-medium caption-font-size mb-3 text-white">CONTACT US</p>
+                        <p class="font-weight-semi-bold caption-font-size mb-3 text-white">CONTACT US</p>
                         <h4 class="font-weight-medium mb-4 text-white">
                          Want to speak with an Our Sales Representative? 
                             <span class="text-highlight">Reach us here!</span>

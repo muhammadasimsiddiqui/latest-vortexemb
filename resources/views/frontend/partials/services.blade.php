@@ -4,10 +4,10 @@
         <div class="section-title mb-60">
                 <div class="row justify-content-between">
                     <div class="col-md-12">
-                      <p class="font-weight-medium caption-font-size mb-6">OUR VALUES</p>
+                      <p class="font-weight-semi-bold color-red caption-font-size mb-6">OUR VALUES</p>
                     </div>
                     <div class="col-md-5">
-                        <h3 class="mb-15">What we <span>do?</span></h3>
+                      <h3 class="mb-15 font-weight-medium">What we <span class="font-weight-bold color-red fst-italic">do?</span></h3>
                     </div>
                     <div class="col-md-6">
                         <p>Upgrade your embroidery projects with our premium digitizing services. Say goodbye to inefficient designs and welcome creativity!</p>
@@ -67,9 +67,15 @@
       </div>       
     </section>
 <!-- ========================= Services ========================= -->
-
+{{-- 
 <section class="pt-100 pb-100">
   
+
+
+
+
+
+
 <div class="container">
 <div class="section_our_solution">
   <div class="row">
@@ -314,7 +320,7 @@
   </div>
 </div>
 </div>
-</section>
+</section>--}}
 
 
 <section class="pt-100 pb-100">
@@ -510,4 +516,4 @@
     </div>
   </div>
   </div>
-  </section>
+  </section> 
