@@ -1,4 +1,4 @@
-<section id="pricing" class="pricing pt-100 pb-100 mt-100 mb-100">
+<section id="pricing" class="pricing pt-100 pb-100 mt-60 mb-60">
     <div class="container">
         <div class="section-title mb-60">
             <div class="row justify-content-between">

@@ -1,5 +1,5 @@
  <!-- ========================= about style-2 start ========================= -->
- <section class="pt-100 pb-100">
+ <section class="pt-60 pb-60">
       <div class="container">
         <div class="row">
           <div class="col-xl-5 col-lg-6">

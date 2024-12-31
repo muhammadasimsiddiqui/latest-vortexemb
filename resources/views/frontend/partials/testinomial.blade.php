@@ -1,4 +1,4 @@
-<section class="pb-100 pt-100">
+<section class="pb-60 pt-60">
     <div class="container">
         <div class="section-title mb-60">
             <div class="row justify-content-between">

@@ -1,4 +1,4 @@
-<section class="pb-100 pt-100 " >
+<section class="pb-60 pt-60 " >
     <div class="container">
       <div class="row"> 
           <div class="section-title mb-60">

@@ -1,5 +1,5 @@
-<section class="container-fluid contactBanner position-relative mt-225 mb-100">
-    <div class="d-flex">
+<section class="container-fluid position-relative mt-225 mb-100">
+    <div class="d-flex contactBanner rounded-3">
          <div class="container d-flex align-items-center">
              <div class="row w-100 pt-50 pb-50">
                  <!-- Text Content -->
