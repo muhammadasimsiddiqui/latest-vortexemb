@@ -30,7 +30,7 @@
         <div class="row gy-4 align-items-stretch">
             <div class="col-md-4 col-sm-6 d-flex">
                 <div
-                    class="serviceCard background-color rounded-3 pr-25 pl-25 pt-25 pb-25 d-flex flex-column"
+                    class="serviceCard shadow-sm background-color rounded-3 pr-25 pl-25 pt-25 pb-25 d-flex flex-column"
                 >
                     <div class="mb-25">
                         <img
@@ -62,7 +62,7 @@
             </div>
             <div class="col-md-4 col-sm-6 d-flex">
                 <div
-                    class="serviceCard background-color rounded-3 pr-25 pl-25 pt-25 pb-25"
+                    class="serviceCard background-color rounded-3 pr-25 pl-25 pt-25 pb-25 shadow-sm"
                 >
                     <div class="mb-25">
                         <img
@@ -94,7 +94,7 @@
             </div>
             <div class="col-md-4 col-sm-12 d-flex">
                 <div
-                    class="serviceCard background-color rounded-3 pr-25 pl-25 pt-25 pb-25 d-flex flex-column"
+                    class="serviceCard background-color rounded-3 pr-25 pl-25 pt-25 pb-25 d-flex flex-column shadow-sm"
                 >
                     <div class="mb-25">
                         <img

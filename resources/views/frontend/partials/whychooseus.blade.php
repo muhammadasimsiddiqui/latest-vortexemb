@@ -14,9 +14,9 @@
               </div>
           </div>
         </div>      
-        <div class="row">
-          <div class="col-lg-4 col-md-6">
-            <div class="single-feature">
+        <div class="row align-items-stretch g-3">
+          <div class="col-lg-4 col-md-6 d-flex">
+            <div class="single-feature background-color shadow-sm rounded-3">
               <div class="feature-top">
                 <div class="icon">
                   <i class="bi bi-person-check"></i>
@@ -30,8 +30,8 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="single-feature">
+          <div class="col-lg-4 col-md-6 d-flex">
+            <div class="single-feature background-color shadow-sm rounded-3">
               <div class="feature-top">
                 <div class="icon">
                   <i class="bi bi-people"></i>
@@ -45,8 +45,8 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="single-feature">
+          <div class="col-lg-4 col-md-6 d-flex">
+            <div class="single-feature background-color shadow-sm rounded-3">
               <div class="feature-top">
                 <div class="icon">
                   <i class="bi bi-headset"></i>
@@ -60,8 +60,8 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="single-feature">
+          <div class="col-lg-4 col-md-6 d-flex">
+            <div class="single-feature background-color shadow-sm rounded-3">
               <div class="feature-top">
                 <div class="icon">
                   <i class="bi bi-cash-coin"></i>
@@ -75,8 +75,8 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="single-feature">
+          <div class="col-lg-4 col-md-6 d-flex">
+            <div class="single-feature background-color shadow-sm rounded-3">
               <div class="feature-top">
                 <div class="icon">
                 <i class="bi bi-shield-shaded"></i>
@@ -90,8 +90,8 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="single-feature">
+          <div class="col-lg-4 col-md-6 d-flex">
+            <div class="single-feature background-color shadow-sm rounded-3">
               <div class="feature-top">
                 <div class="icon">
                 <i class="fa-solid fa-user-shield"></i>

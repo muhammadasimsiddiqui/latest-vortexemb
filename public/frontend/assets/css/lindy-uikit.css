@@ -94,6 +94,7 @@ ul {
 a {
     text-decoration: none;
     transition: all 0.3s ease-out 0s;
+    color: #bb1125;
 }
 
 a:hover {
@@ -3312,7 +3313,7 @@ p {
 }
 
 .footer-style-1 .widget-wrapper .footer-widget .socials li a {
-    background: rgba(47, 128, 237, 0.4);
+    background: rgba(187, 17, 37, 0.4);
     margin: 0;
     margin-right: 10px;
     width: 44px;
