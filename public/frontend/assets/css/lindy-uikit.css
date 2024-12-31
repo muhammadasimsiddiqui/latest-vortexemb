@@ -1,10 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Baskervville:ital@1&family=Mona+Sans:ital,wght@0,200..900;1,200..900&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Baskervville:ital@1&family=Mona+Sans:ital,wght@0,200..900;1,200..900&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
 
 /* =========== GOOGLE FONTS ========= */
 /* ============================= 
@@ -13,11 +11,7 @@
 html {
     scroll-behavior: smooth;
     scrollbar-width: thin;
-    scrollbar-color: color-mix(
-        in srgb,
-        #bb1125 90%,
-        black 10%
-      ) #ffff;
+    scrollbar-color: color-mix(in srgb, #bb1125 90%, black 10%) #ffff;
 }
 
 :root {
@@ -64,7 +58,6 @@ html {
     --theme-color: #cf4d78;
 }
 
-
 :root {
     --light: rgb(85 108 214 / 5%) !important;
 }
@@ -76,7 +69,7 @@ body {
     position: relative; /* Required to position the pseudo-element correctly */
 }
 
-body::before {
+/* body::before {
     content: "";
     height: 100%;
     width: 100%;
@@ -86,12 +79,11 @@ body::before {
         var(--light) 2px,
         transparent 2px,
         transparent 17.5vw
-    ); /* Assuming $light is a CSS variable */
+    ); 
     position: absolute;
     top: 0;
     left: 0;
-    z-index: -1; /* Makes sure the pseudo-element stays behind the body content */
-}
+    z-index: -1; } */
 
 ul {
     margin: 0;
@@ -2775,18 +2767,24 @@ p {
     min-height: 300px;
     transition: all 0.5s ease-in-out;
     background: #bb1125;
-    transform: translateY(-10px) ;
+    transform: translateY(-10px);
 }
 .pricing:before {
     content: "";
     position: absolute;
-        background: linear-gradient(135deg, #b11225 15%, #d81e4b 50%, #e63946 85%, #f3f3f3 100%);
+    background: linear-gradient(
+        135deg,
+        #b11225 15%,
+        #d81e4b 50%,
+        #e63946 85%,
+        #f3f3f3 100%
+    );
 
-    width: 150%;
-    height: 150%;
+    width: 200%;
+    height: 200%;
     z-index: -1;
     top: -50%;
-    left: -80%;
+    right: 60%;
     transform: rotate(70deg);
 }
 
@@ -2845,7 +2843,6 @@ p {
 }
 .our_solution_content p {
 }
-
 
 .hover_color_bubble {
     position: absolute;
@@ -3294,7 +3291,7 @@ p {
     FOOTER-1 CSS
 ================================ */
 .footer-style-1 {
-    background: #f3f3f3;
+    background: #FDFEFE;
     padding-top: 80px;
 }
 
@@ -5004,15 +5001,15 @@ button:focus {
 /*  */
 /* serviceCard */
 
-.background-color{
+.background-color {
     background-color: #f3f3f3;
 }
 
-.yellow{
-    color:#f8be05;
+.yellow {
+    color: #f8be05;
 }
 
-.text-dark{
+.text-dark {
     color: #323450;
 }
 
@@ -5164,12 +5161,11 @@ button:focus {
 .accordion-button:focus {
     outline: none;
     box-shadow: none;
-    background-color: transparent;  /* Remove focus background */
-    border-color: transparent;      /* Remove border color */
+    background-color: transparent; /* Remove focus background */
+    border-color: transparent; /* Remove border color */
 }
-.accordion-item{
-    background: transparent !important;  /* Remove focus background */
-
+.accordion-item {
+    background: transparent !important; /* Remove focus background */
 }
 
 /*  */
@@ -5184,23 +5180,21 @@ button:focus {
     outline: none;
     box-shadow: none;
     background: transparent;
-    border: 0; 
+    border: 0;
     border-bottom: 2px solid #f3f3f3 !important;
     font-weight: 500;
 }
 .accordion-button::after {
     background-image: none !important;
-    
 }
-
 
 .accordion-button,
 .accordion-body {
     padding-left: 0px;
     padding-right: 0px;
 }
-.accordion-item{
-    border: 0;  
+.accordion-item {
+    border: 0;
     border-radius: 0 !important;
 }
 .accordion-button:not(.collapsed) {
@@ -5208,40 +5202,42 @@ button:focus {
     background-color: transparent;
     box-shadow: none;
 }
-.accordion-item:first-of-type>.accordion-header .accordion-button.collapsed,
-.accordion-item:last-of-type>.accordion-header .accordion-button.collapsed {
-    border-bottom-right-radius:0;
+.accordion-item:first-of-type > .accordion-header .accordion-button.collapsed,
+.accordion-item:last-of-type > .accordion-header .accordion-button.collapsed {
+    border-bottom-right-radius: 0;
     border-bottom-left-radius: 0;
 }
 
-
 /*  */
-.contactBanner{
-    background: #bb1125; min-height: 280px; margin-right:3%;  margin-left:3%;
+.contactBanner {
+    background: #bb1125;
+    min-height: 280px;
+    margin-right: 3%;
+    margin-left: 3%;
 }
-.contactBannerImage{
-    bottom:-48%;
+.contactBannerImage {
+    bottom: -48%;
 }
-@media (max-width: 768px){
-    .contactBannerImage{
-        position:relative !important;
-        bottom:-12%;
+@media (max-width: 768px) {
+    .contactBannerImage {
+        position: relative !important;
+        bottom: -12%;
     }
 }
 /*  */
 
-.background-color{
+.background-color {
     background-color: #f3f3f3;
 }
 
-.yellow{
-    color:#f8be05;
+.yellow {
+    color: #f8be05;
 }
 
-.color-red{
+.color-red {
     color: #bb1125;
 }
 
-.section-title span{
+.section-title span {
     font-family: Baskervville;
 }
