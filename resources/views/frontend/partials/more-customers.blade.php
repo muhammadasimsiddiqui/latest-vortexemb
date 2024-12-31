@@ -1,4 +1,4 @@
-<section class="container-fluid contactBanner position-relative mt-225">
+<section class="container-fluid contactBanner position-relative mt-225 mb-100">
     <div class="d-flex">
          <div class="container d-flex align-items-center">
              <div class="row w-100 pt-50 pb-50">
