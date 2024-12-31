@@ -16,7 +16,7 @@
     <!-- /Who We Are Section -->
 
     <!-- Start Services Section -->
-    @include('frontend.partials.services')
+    @include('frontend.partials.home.whatwedo')
     <!-- /Start Services Section -->
 
     <!-- Why Choose Us Section -->
