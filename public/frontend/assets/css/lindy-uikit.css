@@ -1476,7 +1476,6 @@ p {
 
 .hero-section-wrapper-1 .hero-style-1 .hero-content-wrapper p {
     font-weight: 500;
-    margin-bottom: 50px;
 }
 
 .hero-section-wrapper-1 .hero-style-1 .hero-image {
@@ -5239,6 +5238,8 @@ button:focus {
     color: #bb1125;
 }
 
-.section-title span {
+/* italic span */
+.section-title span,
+.seconday-font {
     font-family: Baskervville;
 }

@@ -3,13 +3,6 @@
 @section('title', 'Home')
 
 @section('content')
-    <!-- Embriodery Section -->
-    <!-- @include('frontend.partials.embroidery-digitizing.embroidery') -->
-    <!-- Embriodery Section -->
-
-    <!-- Vector Section -->
-    <!-- @include('frontend.partials.vector-conversation.vector') -->
-    <!-- /Vector Section -->
 
      <!-- Who We Are Section -->
      @include('frontend.partials.whoweare')
