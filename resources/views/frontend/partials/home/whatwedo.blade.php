@@ -4,7 +4,7 @@
             <div class="row justify-content-between">
                 <div class="col-md-12">
                     <p
-                        class="font-weight-semi-bold color-red caption-font-size mb-6"
+                        class="font-weight-semi-bold text-danger caption-font-size mb-6"
                     >
                         OUR VALUES
                     </p>
@@ -13,7 +13,7 @@
                     <h3 class="mb-15 font-weight-medium">
                         What we
                         <span
-                            class="font-weight-bold color-red fst-italic"
+                            class="font-weight-bold text-danger fst-italic"
                             >do?</span
                         >
                     </h3>
@@ -30,7 +30,7 @@
         <div class="row gy-4 align-items-stretch">
             <div class="col-md-4 col-sm-6 d-flex">
                 <div
-                    class="serviceCard shadow-sm background-color rounded-3 pr-25 pl-25 pt-25 pb-25 d-flex flex-column"
+                    class="serviceCard shadow-sm bg-light rounded-3 pr-25 pl-25 pt-25 pb-25 d-flex flex-column"
                 >
                     <div class="mb-25">
                         <img
@@ -62,7 +62,7 @@
             </div>
             <div class="col-md-4 col-sm-6 d-flex">
                 <div
-                    class="serviceCard background-color rounded-3 pr-25 pl-25 pt-25 pb-25 shadow-sm"
+                    class="serviceCard bg-light rounded-3 pr-25 pl-25 pt-25 pb-25 shadow-sm"
                 >
                     <div class="mb-25">
                         <img
@@ -94,7 +94,7 @@
             </div>
             <div class="col-md-4 col-sm-12 d-flex">
                 <div
-                    class="serviceCard background-color rounded-3 pr-25 pl-25 pt-25 pb-25 d-flex flex-column shadow-sm"
+                    class="serviceCard bg-light rounded-3 pr-25 pl-25 pt-25 pb-25 d-flex flex-column shadow-sm"
                 >
                     <div class="mb-25">
                         <img

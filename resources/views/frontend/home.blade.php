@@ -4,9 +4,9 @@
 
 @section('content')
 
-     <!-- Who We Are Section -->
-     @include('frontend.partials.whoweare')
-    <!-- /Who We Are Section -->
+    <!-- Start Services Section -->
+    @include('frontend.partials.home.services')
+    <!-- /Start Services Section -->
 
     <!-- Start Services Section -->
     @include('frontend.partials.home.whatwedo')

@@ -1390,6 +1390,10 @@ p {
     position: relative;
 }
 
+.hero-section-wrapper-1 .hero-style-1{
+    min-height: 100dvh !important;
+}
+
 .hero-section-wrapper-1 .header {
     position: absolute;
     width: 100%;
@@ -1409,18 +1413,19 @@ p {
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
 }
 
-.hero-section-wrapper-1 .hero-style-1 {
+.hero-section-wrapper-1 .hero-style-1,
+.hero-content-wrapper {
     position: relative;
     z-index: 1;
 }
 
 .hero-section-wrapper-1 .hero-style-1 .hero-content-wrapper {
-    padding: 300px 0;
+    /* padding: 300px 0; */
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
     .hero-section-wrapper-1 .hero-style-1 .hero-content-wrapper {
-        padding: 250px 0;
+        /* padding: 250px 0; */
     }
 }
 
@@ -1475,7 +1480,7 @@ p {
 }
 
 .hero-section-wrapper-1 .hero-style-1 .hero-content-wrapper p {
-    font-weight: 500;
+    /* font-weight: 500; */
 }
 
 .hero-section-wrapper-1 .hero-style-1 .hero-image {
@@ -1506,7 +1511,7 @@ p {
     }
 }
 
-.hero-section-wrapper-1 .hero-style-1 .shapes .shape {
+.hero-section-wrapper-1 .hero-style-1 .shape {
     position: absolute;
     z-index: -1;
 }
@@ -1520,6 +1525,15 @@ p {
 .hero-section-wrapper-1 .hero-style-1 .shapes .shape.shape-2 {
     top: 200px;
     left: 49%;
+}
+
+.hero-section-wrapper-1 .hero-style-1 .hero-content-wrapper .shape-5{
+    top: 90px;
+    left: 0%;
+}
+.hero-section-wrapper-1 .hero-style-1 .hero-content-wrapper .shape-6{
+    /* bottom: 0px; */
+    right: -40px;
 }
 
 .hero-section-wrapper-1 .hero-style-1 .shapes .shape.shape-3 {
@@ -5226,16 +5240,16 @@ button:focus {
 }
 /*  */
 
-.background-color {
-    background-color: #f3f3f3;
-}
-
 .yellow {
     color: #f8be05;
 }
 
-.color-red {
-    color: #bb1125;
+:root {
+    /* Bootstrap */
+    --bs-danger-rgb: 187, 17, 37 !important; /* RGB values without 'rgb()' */
+    --bs-danger: #bb1125 !important; /* Hex color for compatibility */
+    --bs-light: #f3f3f3 !important; /* Hex color */
+    --bs-light-rgb: 243, 243, 243 !important; /* Numeric RGB values */
 }
 
 /* italic span */

@@ -1,4 +1,4 @@
-	<div id="contact" class=" contact-style-2" style="background-color:transparent !important;">
+	{{-- <div id="contact" class=" contact-style-2" style="background-color:transparent !important;">
             <div class="contact-form-wrapper">
               <form action="assets/php/contact-form.php" method="POST">
                 <div class="row">
@@ -45,4 +45,4 @@
                 </div>
               </form>
             </div>  
-    </div>
+    </div> --}}

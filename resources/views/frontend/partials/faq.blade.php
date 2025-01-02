@@ -3,8 +3,8 @@
         <div class="row">
             <div class="col-md-6">
                 <div class="section-title ">
-                    <p class="font-weight-semi-bold color-red caption-font-size mb-6">FAQ's</p>
-                    <h3 class="mb-15 font-weight-medium">Frequently asked<br/><span class="font-weight-bold color-red fst-italic">questions!</span></h3>
+                    <p class="font-weight-semi-bold text-danger caption-font-size mb-6">FAQ's</p>
+                    <h3 class="mb-15 font-weight-medium">Frequently asked<br/><span class="font-weight-bold text-danger fst-italic">questions!</span></h3>
                 </div>
                 <div>
                     <img src="frontend/assets/img/illustration/faqs.svg" class="img-fluid" alt="">

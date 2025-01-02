@@ -13,7 +13,7 @@
                     <h3 class="mb-15 font-weight-medium text-white">
                         Crafting excellence with
                         <span
-                            class="font-weight-bold color-red text-white fst-italic"
+                            class="font-weight-bold text-danger text-white fst-italic"
                             >VortexEmb!</span
                         >
                     </h3>
@@ -55,7 +55,7 @@
                             </div>
                             <div class="col-md-4 d-flex pb-10 pt-10">
                                 <div
-                                    class="background-color shadow rounded-2 pb-25 pt-25 w-100"
+                                    class="bg-light shadow rounded-2 pb-25 pt-25 w-100"
                                 >
                                     <h6
                                         class="font-weight-bold text-center mb-15"
@@ -63,7 +63,7 @@
                                         BASIC
                                     </h6>
                                     <h2
-                                        class="font-weight-semi-bold color-red text-center"
+                                        class="font-weight-semi-bold text-danger text-center"
                                     >
                                         $9
                                     </h2>
@@ -87,7 +87,7 @@
                                         STANDARD
                                     </h6>
                                     <h2
-                                        class="font-weight-semi-bold text-white color-red text-center"
+                                        class="font-weight-semi-bold text-white text-danger text-center"
                                     >
                                         $18
                                     </h2>
@@ -95,7 +95,7 @@
                             </div>
                             <div class="col-md-4 d-flex pb-10 pt-10">
                                 <div
-                                    class="background-color shadow rounded-2 pb-25 pt-25 w-100"
+                                    class="bg-light shadow rounded-2 pb-25 pt-25 w-100"
                                 >
                                     <h6
                                         class="font-weight-bold text-center mb-15"
@@ -103,7 +103,7 @@
                                         PROFESSIONAL
                                     </h6>
                                     <h2
-                                        class="font-weight-semi-bold color-red text-center"
+                                        class="font-weight-semi-bold text-danger text-center"
                                     >
                                         $25
                                     </h2>
@@ -123,7 +123,7 @@
                             </div>
                             <div class="col-md-4 d-flex pb-10 pt-10">
                                 <div
-                                    class="background-color shadow rounded-2 pb-25 pt-25 w-100"
+                                    class="bg-light shadow rounded-2 pb-25 pt-25 w-100"
                                 >
                                     <h6
                                         class="font-weight-bold text-center mb-15"
@@ -131,7 +131,7 @@
                                     SIMPLISTIC
                                     </h6>
                                     <h2
-                                        class="font-weight-semi-bold color-red text-center"
+                                        class="font-weight-semi-bold text-danger text-center"
                                     >
                                         $7
                                     </h2>
@@ -155,7 +155,7 @@
                                     INTERMEDIATE
                                     </h6>
                                     <h2
-                                        class="font-weight-semi-bold text-white color-red text-center"
+                                        class="font-weight-semi-bold text-white text-danger text-center"
                                     >
                                         $21
                                     </h2>
@@ -163,7 +163,7 @@
                             </div>
                             <div class="col-md-4 d-flex pb-10 pt-10">
                                 <div
-                                    class="background-color shadow rounded-2 pb-25 pt-25 w-100"
+                                    class="bg-light shadow rounded-2 pb-25 pt-25 w-100"
                                 >
                                     <h6
                                         class="font-weight-bold text-center mb-15"
@@ -171,7 +171,7 @@
                                     REALISTIC
                                     </h6>
                                     <h2
-                                        class="font-weight-semi-bold color-red text-center"
+                                        class="font-weight-semi-bold text-danger text-center"
                                     >
                                         $52
                                     </h2>

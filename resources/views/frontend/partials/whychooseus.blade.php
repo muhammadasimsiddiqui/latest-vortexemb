@@ -4,10 +4,10 @@
         <div class="section-title mb-60">
           <div class="row justify-content-between">
               <div class="col-md-12">
-                  <p class="font-weight-semi-bold color-red caption-font-size mb-6">WHY CHOOSE US</p>
+                  <p class="font-weight-semi-bold text-danger caption-font-size mb-6">WHY CHOOSE US</p>
               </div>
               <div class="col-md-5">
-                  <h3 class="mb-15 font-weight-medium">Crafting excellence with <span class="font-weight-bold color-red fst-italic">VortexEmb!</span></h3>
+                  <h3 class="mb-15 font-weight-medium">Crafting excellence with <span class="font-weight-bold text-danger fst-italic">VortexEmb!</span></h3>
               </div>
               <div class="col-md-6">
                   <p>Transform your embroidery ideas into reality with our top-tier digitizing and vector conversion services. Experience unmatched precision and creativity!</p>
@@ -16,7 +16,7 @@
         </div>      
         <div class="row align-items-stretch g-3">
           <div class="col-lg-4 col-md-6 d-flex">
-            <div class="single-feature background-color shadow-sm rounded-3">
+            <div class="single-feature bg-light shadow-sm rounded-3">
               <div class="feature-top">
                 <div class="icon">
                   <i class="bi bi-person-check"></i>
@@ -31,7 +31,7 @@
             </div>
           </div>
           <div class="col-lg-4 col-md-6 d-flex">
-            <div class="single-feature background-color shadow-sm rounded-3">
+            <div class="single-feature bg-light shadow-sm rounded-3">
               <div class="feature-top">
                 <div class="icon">
                   <i class="bi bi-people"></i>
@@ -46,7 +46,7 @@
             </div>
           </div>
           <div class="col-lg-4 col-md-6 d-flex">
-            <div class="single-feature background-color shadow-sm rounded-3">
+            <div class="single-feature bg-light shadow-sm rounded-3">
               <div class="feature-top">
                 <div class="icon">
                   <i class="bi bi-headset"></i>
@@ -61,7 +61,7 @@
             </div>
           </div>
           <div class="col-lg-4 col-md-6 d-flex">
-            <div class="single-feature background-color shadow-sm rounded-3">
+            <div class="single-feature bg-light shadow-sm rounded-3">
               <div class="feature-top">
                 <div class="icon">
                   <i class="bi bi-cash-coin"></i>
@@ -76,7 +76,7 @@
             </div>
           </div>
           <div class="col-lg-4 col-md-6 d-flex">
-            <div class="single-feature background-color shadow-sm rounded-3">
+            <div class="single-feature bg-light shadow-sm rounded-3">
               <div class="feature-top">
                 <div class="icon">
                 <i class="bi bi-shield-shaded"></i>
@@ -91,7 +91,7 @@
             </div>
           </div>
           <div class="col-lg-4 col-md-6 d-flex">
-            <div class="single-feature background-color shadow-sm rounded-3">
+            <div class="single-feature bg-light shadow-sm rounded-3">
               <div class="feature-top">
                 <div class="icon">
                 <i class="fa-solid fa-user-shield"></i>

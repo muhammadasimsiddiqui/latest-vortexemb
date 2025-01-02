@@ -4,8 +4,8 @@
         <div class="row">
           <div class="col-xl-5 col-lg-6">
               <div class="section-title mb-40">
-              <p class="font-weight-semi-bold color-red caption-font-size mb-6">WHO WE ARE</p>
-                <h3 class="mb-25 font-weight-medium">We are <span class="font-weight-bold color-red fst-italic">Creatives!</span></h3>
+              <p class="font-weight-semi-bold text-danger caption-font-size mb-6">WHO WE ARE</p>
+                <h3 class="mb-25 font-weight-medium">We are <span class="font-weight-bold text-danger fst-italic">Creatives!</span></h3>
               </div>
               <p>The VortexEmb is a dynamic and innovative company that specializesin a wide range of creative services. With expertise in Embroidery Digitizing, 3D Puff Hat Logos, Vector Art Logos, and Graphic design, we bring clients' visions to life with meticulous attention to detail. 
                 <br/>    

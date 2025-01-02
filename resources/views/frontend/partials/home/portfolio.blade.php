@@ -4,10 +4,10 @@
           <div class="section-title mb-60">
               <div class="row justify-content-between">
                   <div class="col-md-12">
-                    <p class="font-weight-semi-bold color-red caption-font-size mb-6">OUR PORTFOLIO</p>
+                    <p class="font-weight-semi-bold text-danger caption-font-size mb-6">OUR PORTFOLIO</p>
                   </div>
                   <div class="col-md-5">
-                      <h3 class="mb-15 font-weight-medium">We create<br/><span class="font-weight-bold color-red fst-italic">beautiful designs</span></h3>
+                      <h3 class="mb-15 font-weight-medium">We create<br/><span class="font-weight-bold text-danger fst-italic">beautiful designs</span></h3>
                   </div>
                   <div class="col-md-6">
                     <p class="mb-15">

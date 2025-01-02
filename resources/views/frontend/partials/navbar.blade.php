@@ -1,5 +1,5 @@
  <!-- ========================= header-2 start ========================= -->
-      <header class="header header-2">
+      <header class="header header-4">
         <div class="navbar-area">
           <div class="container">
             <div class="row align-items-center">
@@ -14,7 +14,7 @@
                     <span class="toggler-icon"></span>
                   </button>
 
-                  <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent2">
+                  <div class="collapse navbar-collapse sub-menu-bar " id="navbarSupportedContent2">
                     <ul id="nav2" class="navbar-nav ml-auto">
                       <li class="nav-item">
                         <a class="page-scroll" href="#0">Home</a>
