@@ -4,29 +4,29 @@
 
 @section('content')
 
+
+
+  <!-- Start Services Section -->
+  @include('frontend.partials.home.hero')
+  <!-- /Start Services Section -->
+  
+  @include('frontend.partials.whoweare')
+
     <!-- Start Services Section -->
     @include('frontend.partials.home.services')
     <!-- /Start Services Section -->
 
-    <!-- Start Services Section -->
-    @include('frontend.partials.home.whatwedo')
-    <!-- /Start Services Section -->
-
-    <!-- Why Choose Us Section -->
-    @include('frontend.partials.whychooseus')
-    <!-- /Why Choose Us Section -->
+    <!-- Testimonials Section -->
+    @include('frontend.partials.home.pricing')
+    <!-- /Testimonials Section -->
 
     <!-- ========================= portfolio start ========================= -->
     @include('frontend.partials.home.portfolio')
     <!-- ========================= portfolio end ========================= -->
-
-    <!-- Testimonials Section -->
-    @include('frontend.partials.faq')
-    <!-- /Testimonials Section -->
-
-    <!-- Testimonials Section -->
-    @include('frontend.partials.home.pricing')
-    <!-- /Testimonials Section -->
+  
+    <!-- Why Choose Us Section -->
+    @include('frontend.partials.home.whychooseus')
+    <!-- /Why Choose Us Section -->
 
     <!-- Testimonials Section -->
     @include('frontend.partials.testinomial')

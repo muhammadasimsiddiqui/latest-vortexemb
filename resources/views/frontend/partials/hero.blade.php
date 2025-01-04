@@ -6,7 +6,7 @@
       <!-- ========================= header-2 end ========================= -->
 
       <!-- ========================= hero-1 start ========================= -->
-      <div class="hero-section hero-style-1 align-content-center">
+      {{-- <div class="hero-section hero-style-1 align-content-center">
         <div class="container">
           <div class="row justify-content-around">
             <div class="col-md-6">
@@ -30,12 +30,11 @@
           </div>
         </div>
         <div class="shapes">
-          {{-- <img src="frontend/assets/img/hero/hero-1/shape-1.svg" alt="" class="shape shape-1"> --}}
           <img src="frontend/assets/img/hero/hero-1/shape-2.svg" alt="" class="shape shape-2">
           <img src="frontend/assets/img/hero/hero-1/shape-3.svg" alt="" class="shape shape-3">
           <img src="frontend/assets/img/hero/hero-1/shape-4.svg" alt="" class="shape shape-4">
         </div>
-      </div>
+      </div> --}}
       <!-- ========================= hero-1 end ========================= -->
 
 </section>

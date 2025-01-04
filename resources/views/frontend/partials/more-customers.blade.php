@@ -5,10 +5,13 @@
                  <!-- Text Content -->
                  <div class="col-lg-7 col-sm-12 pl-20">
                         <p class="font-weight-semi-bold caption-font-size mb-3 text-white">CONTACT US</p>
-                        <h4 class="font-weight-medium mb-4 text-white">
-                         Want to speak with an Our Sales Representative? 
-                            <span class="">Reach us here!</span>
+                        <h4 class="font-weight-medium mb-2 text-white">
+                            Get In Touch With
+                            <span class="">Us!</span>
                         </h4>
+                        <p class="mb-15 text-white">
+                            Let us be the game changing partner to make your business fly high.
+                        </p>
                         <div class="d-flex flex-wrap">
                             <a href="#0" class="button button-sm radius-3">Let's Talk</a>
                             <a href="#0" class="button button-sm radius-3 mx-3">Order Now</a>

@@ -2802,6 +2802,19 @@ p {
     transform: rotate(70deg);
 }
 
+.whychooseus::before{
+    background: linear-gradient(
+        -135deg,
+        #b11225 15%,
+        #d81e4b 50%,
+        #e63946 85%,
+        #f3f3f3 100%
+    ) !important;
+       right: 0!important;
+    left: 60% !important; /* Change from right to left */
+    transform: rotate(-70deg) !important; /* Reverse the rotation */
+}
+
 .solution_cards_box .solution_card:before {
     content: "";
     position: absolute;
@@ -5172,24 +5185,47 @@ button:focus {
 }
 
 /* Remove focus styles for the accordion button */
+
+.accordion-button:not(.collapsed) .accordion-icon {
+    content: '\f068'; /* FontAwesome Minus Icon when expanded */
+}
+
+.accordion-button .accordion-icon::before {
+    content: '\f067'; 
+    font-family: 'Font Awesome 5 Free'; 
+    font-weight: 900; 
+}
+.accordion-button::before {
+    content: "\f067"; 
+    font-family: "FontAwesome";
+    margin-right: 10px;
+}
+
+.accordion-button.collapsed::before {
+    content: "\f067"; 
+}
+
+.accordion-button:not(.collapsed)::before {
+    content: "\f068"; 
+}
+
 .accordion-button:focus {
     outline: none;
     box-shadow: none;
-    background-color: transparent; /* Remove focus background */
-    border-color: transparent; /* Remove border color */
+    background-color: transparent; 
+    border-color: transparent; 
 }
 .accordion-item {
-    background: transparent !important; /* Remove focus background */
+    background: transparent !important; 
 }
 
-/*  */
-/* Remove focus styles for the accordion button */
 .accordion-button:focus {
     outline: none;
     box-shadow: none;
     border-color: transparent;
     border: 0;
 }
+
 .accordion-button {
     outline: none;
     box-shadow: none;
@@ -5211,8 +5247,11 @@ button:focus {
     border: 0;
     border-radius: 0 !important;
 }
+.accordion-button:hover{
+    color: #bb1125;
+}
 .accordion-button:not(.collapsed) {
-    color: #323450;
+    color: #bb1125;
     background-color: transparent;
     box-shadow: none;
 }
